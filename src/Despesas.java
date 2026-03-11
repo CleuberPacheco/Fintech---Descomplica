@@ -28,4 +28,7 @@ public class Despesas {
         this.valorDespesa = valorDespesa;
         this.dataDespesa = dataDespesa;
     }
+
+    //METODOS
+
 }
