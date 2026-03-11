@@ -1,6 +1,6 @@
-public class Cadastro {
+public class Conta {
     //ATRIBUTOS
-    int id;
+    int iduConta;
     String nome;
     String dataNascimento;
     String cpf;
@@ -10,13 +10,13 @@ public class Cadastro {
     String email;
 
     //CONSTRUTOR PADRÃO
-    public Cadastro (){
+    public Conta(){
     }
 
     //CONSTRUTOR COM PARAMETRO - IDENTIFICAÇÃO
 
-    public Cadastro(int id, String nome, String dataNascimento, String cpf) {
-        this.id = id;
+    public Conta(int id, String nome, String dataNascimento, String cpf) {
+        this.iduConta = id;
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.cpf = cpf;
