@@ -10,12 +10,10 @@ public class Receita {
     public LocalDate dataReceita;
 
     //CONSTRUTOR PADRÃO
-
     public Receita() {
     }
 
     //CONSTRUTOR COM PARAMÊTRO - TIPO DE RECEITA
-
     public Receita(int idReceita, String nomeReceita, String tipoReceita, int idCarteira) {
         this.idReceita = idReceita;
         this.nomeReceita = nomeReceita;
