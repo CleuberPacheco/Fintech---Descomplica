@@ -1,13 +1,13 @@
 public class Conta {
     //ATRIBUTOS
-    int iduConta;
-    String nome;
-    String dataNascimento;
-    String cpf;
-    String rg;
-    String endereco;
-    String telefone;
-    String email;
+    public int iduConta;
+    public String nome;
+    public String dataNascimento;
+    public String cpf;
+    public String rg;
+    public String endereco;
+    public String telefone;
+    public String email;
 
     //CONSTRUTOR PADRÃO
     public Conta(){

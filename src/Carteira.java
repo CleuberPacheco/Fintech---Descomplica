@@ -1,9 +1,9 @@
 public class Carteira {
     //ATRIBUTOS
-    int idcarteira;
-    int idusuario;
-    String nomeCarteira;
-    boolean status; //Ativo ou Bloqueado
+    public int idcarteira;
+    public int idusuario;
+    public String nomeCarteira;
+    public boolean status; //Ativo ou Bloqueado
 
     //CONSTRUTOR PADRÃO
     public Carteira (){
