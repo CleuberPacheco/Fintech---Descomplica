@@ -1,9 +1,8 @@
-import java.sql.Struct;
 import java.util.Scanner;
 
 public class Conta {
     //ATRIBUTOS
-    public int iduConta;
+    public int idConta;
     public String nome;
     public String dataNascimento;
     public String cpf;
@@ -20,7 +19,7 @@ public class Conta {
     //CONSTRUTOR COM PARAMETRO - IDENTIFICAÇÃO
 
     public Conta(int id, String nome, String dataNascimento, String cpf) {
-        this.iduConta = id;
+        this.idConta = id;
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.cpf = cpf;
@@ -58,6 +57,13 @@ public class Conta {
         this.endereco = Entrada.nextLine();
 
         System.out.println("Cadastro realizado com sucesso para: " + this.nome);
+    }
+
+    public void exibirConta () {
+        System.out.println("Nome: " + nome);
+        System.out.println(dataNascimento);
+        System.out.println(cpf);
+        System.out.println(rg);
     }
 
 }
